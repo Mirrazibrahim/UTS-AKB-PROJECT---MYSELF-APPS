@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~     Tanggal Pengerjaan : 18/5/2021
+  ~     Nim : 10118056
+  ~     Nama : Mirraz Ibrahim
+  ~     email : mirrazibrahim@gmail.com
+  ~     Copyright © 2021 Mirraz Ibrahim. All rights reserved.
+  -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:id="@+id/splash_screen"
+    android:background="@color/lightgreen">
+
+    <ImageView
+        android:layout_width="297dp"
+        android:layout_height="310dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"/>
+
+</RelativeLayout>

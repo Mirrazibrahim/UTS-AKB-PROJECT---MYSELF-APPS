@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~     Tanggal Pengerjaan : 18/5/2021
+  ~     Nim : 10118056
+  ~     Nama : Mirraz Ibrahim
+  ~     email : mirrazibrahim@gmail.com
+  ~     Copyright © 2021 Mirraz Ibrahim. All rights reserved.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/menu_daily"
+        android:title="daily"
+        android:icon="@drawable/daily"/>
+    <item
+        android:id="@+id/menu_gallery"
+        android:title="gallery"
+        android:icon="@drawable/gallery"/>
+    <item
+        android:id="@+id/menu_media"
+        android:title="media"
+        android:icon="@drawable/media"/>
+    <item
+        android:id="@+id/menu_profile"
+        android:title="profile"
+        android:icon="@drawable/profile"/>
+
+</menu>

@@ -1,0 +1,51 @@
+<!--
+  ~     Tanggal Pengerjaan : 18/5/2021
+  ~     Nim : 10118056
+  ~     Nama : Mirraz Ibrahim
+  ~     email : mirrazibrahim@gmail.com
+  ~     Copyright © 2021 Mirraz Ibrahim. All rights reserved.
+  -->
+
+<resources>
+    <string name="app_name">MySelf Apps</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">KULINER</string>
+    <string name="slide_1_desc">Rasakan Berbagai Kuliner yang Akan Memanjakan Lidahmu</string>
+
+    <string name="slide_2_title">HOTEL</string>
+    <string name="slide_2_desc">Temukan Hotel yang Nyaman Untuk Istirahat Perjalananmu</string>
+
+    <string name="slide_3_title">WISATA</string>
+    <string name="slide_3_desc">Destinasi Menarik Menantimu. Segera Pilih Destinasi Wisatamu</string>
+
+    <string name="slide_4_title">GUIDE</string>
+    <string name="slide_4_desc">Cari Guide Untuk Menemani Perjalananmu Agar  semakin asyik </string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="deskripsi">Nama saya <b>Mirraz Ibrahim</b> dan sering dipanggil Mirraz. Saya lahir di Cirebon pada tanggal 25 Oktober 2000 sebagai anak kedua dari tiga bersaudara.
+        Saat ini, saya tinggal bersama orang tua dan keluarga di Serang Banten.\n\nBapak saya bernama Mufti, seorang Pegawai PLN, dan ibu saya bernama Nur Komala, seorang ibu rumah tangga.
+        Kakak saya bernama Muhammad Fadhil Yafi yang berbeda 6 tahun diatas saya.
+        Adik saya bernama Norman Zhafran yang berbeda 6 tahun dibawah saya.\n\nSaya beragama <b>Islam</b>, seperti juga keluarga saya. Saya memiliki ciri fisik tinggi 175 cm, berat badan 50 kg. Rambut saya hitam lurus dengan kulit sawo matang, khas orang Indonesia pada umumnya.
+    </string>
+    <string name="desc">Nama saya <b>Mirraz Ibrahim</b> dan sering dipanggil Mirraz. Saya lahir di Cirebon pada tanggal 25 Oktober 2000 sebagai anak kedua dari tiga bersaudara.
+        Saat ini, saya tinggal bersama orang tua dan keluarga di Serang Banten.</string>
+    <string name="interest">Hobby : Jalan-Jalan\nMakanan Kesukaan : Ayam Goreng\nMinuman Kesukaan : Cappuccino\nInterest : Front End Developer\nCita-Cita : Front End Developer</string>
+
+    <string name="google_maps_key" >AIzaSyAA2bStvFSuZ42iHRgDLutCR3G0Pz2ndEs</string>
+    <string name="hi"><b>Hi . . !</b></string>
+
+    <string name="about">about</string>
+    <string name="about_title">About</string>
+    <string name="dummy_text">Versi MySelf 1.0.0</string>
+    <string name="okay">Okay</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+</resources>
