@@ -10,23 +10,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_home"
-        android:title="home"
+        android:title="@string/home"
         android:icon="@drawable/home"/>
     <item
         android:id="@+id/menu_daily"
-        android:title="daily"
+        android:title="@string/daily"
         android:icon="@drawable/daily"/>
     <item
         android:id="@+id/menu_gallery"
-        android:title="gallery"
+        android:title="@string/gallery"
         android:icon="@drawable/gallery"/>
     <item
         android:id="@+id/menu_media"
-        android:title="media"
+        android:title="@string/media"
         android:icon="@drawable/media"/>
     <item
         android:id="@+id/menu_profile"
-        android:title="profile"
+        android:title="@string/profile"
         android:icon="@drawable/profile"/>
 
 </menu>

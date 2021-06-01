@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Daily"
+        android:text="@string/daily"
         android:fontFamily="@font/larken_medium"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
@@ -40,7 +40,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,7 +52,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Daily Activity"
+        android:text="@string/daily_activity"
         android:fontFamily="@font/larken_light"
         android:textSize="22sp"
         android:textColor="@color/black"
@@ -59,7 +60,8 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="20dp"
-        android:gravity="left"/>
+        android:gravity="left"
+        tools:ignore="RtlHardcoded" />
 
 
         <androidx.recyclerview.widget.RecyclerView
@@ -69,21 +71,21 @@
             android:layout_height="match_parent"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-            android:layout_centerInParent="true"
             tools:listitem="@layout/list_item" >
         </androidx.recyclerview.widget.RecyclerView>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Friendlist"
+            android:text="@string/friendlist"
             android:fontFamily="@font/larken_light"
             android:textSize="22sp"
             android:textColor="@color/black"
             android:layout_marginTop="30dp"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-            android:gravity="left"/>
+            android:gravity="left"
+            tools:ignore="RtlHardcoded" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView2"
@@ -94,7 +96,6 @@
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="30dp"
-            android:layout_centerInParent="true"
             tools:listitem="@layout/list_item" />
 
 

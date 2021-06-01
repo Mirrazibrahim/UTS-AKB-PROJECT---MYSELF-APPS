@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Home"
+        android:text="@string/home"
         android:fontFamily="@font/larken_medium"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
@@ -41,7 +41,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -52,14 +53,15 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Profile"
+                android:text="@string/profile"
                 android:fontFamily="@font/larken_light"
                 android:textSize="22sp"
                 android:textColor="@color/black"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="30dp"
-                android:gravity="left"/>
+                android:gravity="left"
+                tools:ignore="RtlHardcoded" />
 
             <com.mikhaellopez.circularimageview.CircularImageView
                 android:id="@+id/imageList"
@@ -78,26 +80,27 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Mirraz"
+                android:text="@string/mirraz"
                 android:textAlignment="center"
                 android:fontFamily="@font/caviar_dreams"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="30dp"
-                android:textSize="24dp"/>
+                android:textSize="24sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Description"
+                android:text="@string/description"
                 android:fontFamily="@font/larken_light"
                 android:textSize="22sp"
                 android:textColor="@color/black"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="30dp"
-                android:gravity="left"/>
+                android:gravity="left"
+                tools:ignore="RtlHardcoded" />
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -111,12 +114,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="0"
                         android:textSize="16sp"
-                        android:layout_weight="1"
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
-                        android:text="NIM"/>
+                        android:text="@string/nim" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -124,7 +127,7 @@
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
                         android:layout_weight="1"
-                        android:text=": 10118056"/>
+                        android:text="@string/_10118056"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
@@ -135,10 +138,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="5dp"
                         android:textSize="16sp"
-                        android:layout_weight="1"
+                       android:layout_weight="0"
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
-                        android:text="Nama"/>
+                        android:text="@string/nama"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -146,7 +149,7 @@
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
                         android:layout_weight="1"
-                        android:text=": Mirraz Ibrahim"/>
+                        android:text="@string/mirraz_ibrahim"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
@@ -157,10 +160,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="5dp"
                         android:textSize="16sp"
-                        android:layout_weight="1"
+                        android:layout_weight="0"
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
-                        android:text="Kelas"/>
+                        android:text="@string/kelas"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -168,7 +171,7 @@
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
                         android:layout_weight="1"
-                        android:text=": IF-2"/>
+                        android:text="@string/if_2"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
@@ -179,10 +182,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="5dp"
                         android:textSize="16sp"
-                        android:layout_weight="1"
+                        android:layout_weight="0"
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
-                        android:text="Alamat"/>
+                        android:text="@string/alamat"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -190,7 +193,7 @@
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
                         android:layout_weight="1"
-                        android:text=": Griya Permata Asri Blok B7\n  NO.19 Serang Banten"/>
+                        android:text="@string/griya_permata_asri_blok_b7_n_no_19_serang_banten"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
@@ -201,10 +204,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="5dp"
                         android:textSize="16sp"
-                        android:layout_weight="1"
+                        android:layout_weight="0"
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
-                        android:text="Agama"/>
+                        android:text="@string/agama"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -212,7 +215,7 @@
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
                         android:layout_weight="1"
-                        android:text=": Islam"/>
+                        android:text="@string/islam"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
@@ -223,10 +226,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="5dp"
                         android:textSize="16sp"
-                        android:layout_weight="1"
+                        android:layout_weight="0"
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
-                        android:text="Jenis Kelamin"/>
+                        android:text="@string/jenis_kelamin"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -234,14 +237,14 @@
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
                         android:layout_weight="1"
-                        android:text=": Laki-Laki"/>
+                        android:text="@string/laki_laki"/>
                 </TableRow>
             </TableLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Interest"
+                android:text="@string/interest2"
                 android:fontFamily="@font/larken_light"
                 android:textSize="22sp"
                 android:textColor="@color/black"
@@ -249,7 +252,8 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="20dp"
-                android:gravity="left"/>
+                android:gravity="left"
+                tools:ignore="RtlHardcoded" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -269,7 +273,7 @@
                         android:layout_weight="1"
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
-                        android:text="Hobi"/>
+                        android:text="@string/hobi"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -277,7 +281,7 @@
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
                         android:layout_weight="1"
-                        android:text=": Memotret"/>
+                        android:text="@string/memotret"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
@@ -291,7 +295,7 @@
                         android:layout_weight="1"
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
-                        android:text="Makanan Kesukaan"/>
+                        android:text="@string/makanan_kesukaan"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -299,7 +303,7 @@
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
                         android:layout_weight="1"
-                        android:text=": Ayam"/>
+                        android:text="@string/ayam"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
@@ -313,7 +317,7 @@
                         android:layout_weight="1"
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
-                        android:text="Minuman Kesukaan"/>
+                        android:text="@string/minuman_kesukaan"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -321,7 +325,7 @@
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
                         android:layout_weight="1"
-                        android:text=": Susu"/>
+                        android:text="@string/susu"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
@@ -335,7 +339,7 @@
                         android:layout_weight="1"
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
-                        android:text="Interest"/>
+                        android:text="@string/interest2"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -343,7 +347,7 @@
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
                         android:layout_weight="1"
-                        android:text=": Mobile Apps"/>
+                        android:text="@string/mobile_apps"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
@@ -357,7 +361,7 @@
                         android:layout_weight="1"
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
-                        android:text="Cita-Cita"/>
+                        android:text="@string/cita_cita"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -365,7 +369,7 @@
                         android:textColor="@color/black"
                         android:fontFamily="@font/caviar_dreams"
                         android:layout_weight="1"
-                        android:text=": Android Developer"/>
+                        android:text="@string/android_developer"/>
                 </TableRow>
             </TableLayout>
 

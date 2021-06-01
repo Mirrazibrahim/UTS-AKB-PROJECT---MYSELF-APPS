@@ -46,6 +46,57 @@
     <string name="okay">Okay</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="todo">TODO</string>
+    <string name="curious">Curious</string>
+    <string name="rasa_penasaran_yang_tinggi_ndimiliki_oleh_mirraz_ibrahim">Rasa penasaran yang tinggi\ndimiliki oleh Mirraz Ibrahim</string>
+
+    <string name="relax">Relax</string>
+    <string name="bersantai_dalam_menjalankan_nsegala_hal">Bersantai dalam menjalankan\nsegala hal</string>
+
+    <string name="creative">Creative</string>
+    <string name="kreatif_dalam_menjalankan_nsegala_hal">Kreatif dalam menjalankan\nsegala hal</string>
+    <string name="description">Description</string>
+    <string name="example_application">Example application</string>
+    <string name="daily">Daily</string>
+    <string name="daily_activity">Daily Activity</string>
+    <string name="friendlist">Friendlist</string>
+    <string name="gallery">Gallery</string>
+    <string name="photo">Photo</string>
+    <string name="home">Home</string>
+    <string name="mirraz">Mirraz</string>
+    <string name="nim">NIM</string>
+    <string name="_10118056">: 10118056</string>
+    <string name="nama">Nama</string>
+    <string name="mirraz_ibrahim">: Mirraz Ibrahim</string>
+    <string name="kelas">Kelas</string>
+    <string name="if_2">: IF-2</string>
+    <string name="alamat">Alamat</string>
+    <string name="griya_permata_asri_blok_b7_n_no_19_serang_banten">: Griya Permata Asri Blok B7\n NO.19 Serang Banten</string>
+    <string name="agama">Agama</string>
+    <string name="islam">: Islam</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="laki_laki">: Laki-Laki</string>
+    <string name="interest2">Interest</string>
+    <string name="hobi">Hobi</string>
+    <string name="memotret">: Memotret</string>
+    <string name="makanan_kesukaan">Makanan Kesukaan</string>
+    <string name="ayam">: Ayam</string>
+    <string name="minuman_kesukaan">Minuman Kesukaan</string>
+    <string name="susu">: Susu</string>
+    <string name="mobile_apps">: Mobile Apps</string>
+    <string name="cita_cita">Cita-Cita</string>
+    <string name="android_developer">: Android Developer</string>
+    <string name="media">Media</string>
+    <string name="music_favorite">Music Favorite</string>
+    <string name="profile">Profile</string>
+    <string name="contact">Contact</string>
+    <string name="find_me">Find Me</string>
+    <string name="about2">About</string>
+    <string name="about_version_application">about version application</string>
+    <string name="example">Example</string>
+    <string name="this_is_the_title">This is the title</string>
+    <string name="facebook">Facebook</string>
+    <string name="social_media">Social Media</string>
 
 
 </resources>

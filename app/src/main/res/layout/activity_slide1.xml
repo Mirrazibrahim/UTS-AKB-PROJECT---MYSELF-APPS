@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~     Tanggal Pengerjaan : 18/5/2021
   ~     Nim : 10118056
   ~     Nama : Mirraz Ibrahim
@@ -20,6 +19,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="120dp"
+        android:contentDescription="@string/todo"
         android:src="@drawable/ilslide1"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:fontFamily="@font/larken_medium"
-        android:text="Curious"
+        android:text="@string/curious"
         android:textColor="@color/black"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
@@ -46,10 +46,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="140dp"
         android:fontFamily="@font/caviar_dreams"
-        android:text="Rasa penasaran yang tinggi\ndimiliki oleh Mirraz Ibrahim"
+        android:text="@string/rasa_penasaran_yang_tinggi_ndimiliki_oleh_mirraz_ibrahim"
         android:textAlignment="center"
-        android:textSize="22sp"
         android:textColor="@color/black"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

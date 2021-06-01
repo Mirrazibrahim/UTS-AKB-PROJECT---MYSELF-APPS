@@ -21,7 +21,7 @@ tools:context=".HomeFragment">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Gallery"
+        android:text="@string/gallery"
         android:fontFamily="@font/larken_medium"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
@@ -41,12 +41,13 @@ tools:context=".HomeFragment">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Photo"
+            android:text="@string/photo"
             android:fontFamily="@font/larken_light"
             android:textSize="22sp"
             android:textColor="@color/black"
@@ -54,7 +55,8 @@ tools:context=".HomeFragment">
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="20dp"
-            android:gravity="left"/>
+            android:gravity="left"
+            tools:ignore="RtlHardcoded" />
 
     <!-- TODO: Update blank fragment layout -->
     <androidx.recyclerview.widget.RecyclerView

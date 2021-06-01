@@ -23,7 +23,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Media"
+            android:text="@string/media"
             android:fontFamily="@font/larken_medium"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
@@ -41,7 +41,8 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -52,7 +53,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Music Favorite"
+            android:text="@string/music_favorite"
             android:fontFamily="@font/larken_light"
             android:textSize="22sp"
             android:textColor="@color/black"
@@ -60,7 +61,8 @@
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="20dp"
-            android:gravity="left"/>
+            android:gravity="left"
+            tools:ignore="RtlHardcoded" />
     <com.mirrazdev.myself.VideoPlayerRecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
